@@ -7,9 +7,9 @@ export type JwtPayload = {
     aud: string;
     event_id: string;
     token_use: string;
-    auth_time: string;
-    exp: string;
-    iat: string;
-    jti: string;
+    auth_time: number;
+    exp: number;
+    iat: number;
+    jti: number;
     email: string;
 }
